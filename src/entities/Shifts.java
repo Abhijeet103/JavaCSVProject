@@ -3,9 +3,12 @@ package entities;
         private String startTime;
         private String endTime;
 
-        public Shifts(String startTime, String endTime) {
+        private double timeWorked;
+
+        public Shifts(String startTime, String endTime , double timeWorked) {
             this.startTime = startTime;
             this.endTime = endTime;
+            this.timeWorked =  timeWorked;
         }
 
         public String getStartTime() {
@@ -14,6 +17,11 @@ package entities;
 
         public String getEndTime() {
             return endTime;
+        }
+
+        public double getTimeWorked()
+        {
+            return  timeWorked;
         }
     }
 

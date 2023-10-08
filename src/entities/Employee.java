@@ -5,6 +5,7 @@ public class Employee {
     private String name;
     private String position ;
     private List<Workday> workdays;
+    private List<Shifts>  shifts ;
 
     HashMap<String , Workday>  map = new HashMap<>();
     public Employee(String id , String name , String position ) {
@@ -12,6 +13,7 @@ public class Employee {
         this.name  =  name ;
         this.position =  position;
         this.workdays = new ArrayList<>();
+        this.shifts = new ArrayList<>();
     }
 
     public String getId() {
@@ -28,7 +30,8 @@ public class Employee {
         return position;
     }
 
-    public void addWorkDay(String date, double totalHoursWorked) {
+    public void addWorkDay(String date, double totalHoursWorked , String timeIn , String timeOut) {
+        shifts.add(new Shifts(timeIn , timeOut , totalHoursWorked));
         if(map.containsKey(date))
         {
             Workday work =  map.get(date);
@@ -49,6 +52,11 @@ public class Employee {
 
     public List<Workday> getWorkDays() {
         return workdays;
+    }
+
+    public List<Shifts> getShifts()
+    {
+        return this.shifts;
     }
 
     @Override
