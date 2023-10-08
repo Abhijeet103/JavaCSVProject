@@ -1,0 +1,53 @@
+C:\Users\disco\.jdks\openjdk-21\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2\lib\idea_rt.jar=65458:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\disco\IdeaProjects\readingCSV\out\production\readingCSV Main
+Employees who worked for 7  consecutive days or more
+
+"CarMer Active
+"MErres Active
+"ArveXE RECerE Active
+"XEpes Active
+"PearsEW Active
+"REiz Active
+"Ware Active
+"WiXGard Active
+"KaAr Active
+"SEMEsEXis Active
+Employee who worked for more than  14 in a single shift
+
+"DeXgadiXXE REdarMe Active
+Employee who have less than 10 hours of time between shifts but greater than 1 hour
+
+"CEreira Jr Active
+"CEreira Jr Active
+"CEreira Jr Active
+"MAake Active
+"MAake Active
+"CEMMa Active
+"CEMMa Active
+"MraW Active
+"CcRAWWeX Active
+"CcRAWWeX Active
+"CcRAWWeX Active
+"PerkiWs Active
+"ViXXa Active
+"FeXix Active
+"FeXix Active
+"FeXix Active
+"XEpez WAWez Active
+"XEpez WAWez Active
+"DeXgadiXXE REdarMe Active
+"DeXgadiXXE REdarMe Active
+"DeXgadiXXE REdarMe Active
+"HaCiXMEW Active
+"HAWMer Active
+"ArevaXE Active
+"SiWgh Active
+"ErEpeza Active
+"De Xa Cerda Active
+"EsMrada Active
+"EsMrada Active
+"CaMaXaWE Active
+"Arias Active
+"Xee Active
+"Xee Active
+
+Process finished with exit code 0
